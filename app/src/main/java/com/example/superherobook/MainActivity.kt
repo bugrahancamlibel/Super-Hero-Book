@@ -15,6 +15,9 @@ class MainActivity : AppCompatActivity() {
         var superHeroNames = ArrayList<String>()
         superHeroNames.add("Superman")
         superHeroNames.add("Batman")
+        superHeroNames.add("Hulk")
+        superHeroNames.add("Spiderman")
+        superHeroNames.add("Wolverine")
 
         // bitmaps
         // val supermanBitmap = BitmapFactory.decodeResource(applicationContext.resources, R.drawable.superman)
@@ -26,10 +29,17 @@ class MainActivity : AppCompatActivity() {
 
         val batmanDrawableId = R.drawable.batman
         val supermanDrawableId = R.drawable.superman
+        val hulkDrawableId = R.drawable.hulk
+        val spidermanDrawableId = R.drawable.spiderman
+        val wolverineDrawableId = R.drawable.wolverine
+
 
         var superHeroDrawableList = ArrayList<Int>()
         superHeroDrawableList.add(supermanDrawableId)
         superHeroDrawableList.add(batmanDrawableId)
+        superHeroDrawableList.add(hulkDrawableId)
+        superHeroDrawableList.add(spidermanDrawableId)
+        superHeroDrawableList.add(wolverineDrawableId)
 
 
         //adapter
