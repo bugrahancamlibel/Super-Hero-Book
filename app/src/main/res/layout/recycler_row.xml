@@ -8,14 +8,14 @@
 
     <TextView
         android:id="@+id/recyclerViewTextView"
-        android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:textSize="20sp"
-        android:textColor="#E41515"
-        android:text="Test"
+        android:layout_height="wrap_content"
         android:layout_margin="5dp"
+        android:text="Test"
+        android:textColor="#1F295E"
+        android:textSize="24sp"
 
-        >
+        android:textStyle="bold">
 
     </TextView>
 
